@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2%;
+    gap: 30px;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: baseline;
+}
+
+.texto p {
+    color: #b1b1b1;
+}
+
+.contenedor-targetas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.targetas {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: fit-content;
+    min-width: min-content;
+    max-width: 50%;
+}
+
+.targetas img {
+    display: flex;
+    flex: 1 1 230px;
+}
+
+.ver-mas {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 7px 0;
+}

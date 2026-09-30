@@ -47,12 +47,9 @@ body {
     display: flex;
     align-items: center;
     gap: 10px;
-
     font-size: 1.5rem;
     font-weight: bold;
-
     color: var(--azul);
-
     flex-grow: 1;
 }
 
@@ -67,11 +64,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-
     flex-wrap: wrap;
-
     gap: 20px;
-
     flex-grow: 1;
 }
 
